@@ -1,3 +1,7 @@
 # VIM
 .ropeproject/
 *.sw[op]
+
+# Python
+__pycache__/
+*.py[cod]
