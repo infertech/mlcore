@@ -1,4 +1,5 @@
 class BaseNode:
 
     def process(self, data):
-        return data
+        raise NotImplementedError(
+            "Nodes should redefine their 'proceeess' method")
