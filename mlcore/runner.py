@@ -1,5 +1,5 @@
-from exceptions import NotNodeException
-from nodes import BaseNode
+from .exceptions import NotNodeException
+from .nodes import BaseNode
 
 
 def run(nodes, data):

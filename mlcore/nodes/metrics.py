@@ -1,4 +1,4 @@
-from .nodes import BaseNode
+from .base import BaseNode
 
 
 class BaseMetric(BaseNode):
